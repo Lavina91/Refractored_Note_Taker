@@ -40,7 +40,13 @@ before starting application's URL.
 
 ## Screenshots
 
+![Picture of running the server in the terminal](./assets/nodemon_server.png)
 
+![Picture of the home page of the Note Taker](./assets/start_screen.png)
+
+![Picture of 2 notes saved and 1 being made](./assets/3_notes.png)
+
+![Picture of 1 of the notes from the picture above deleted](./assets/2_notes.png)
 
 
 ## Questions 
