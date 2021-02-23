@@ -23,10 +23,10 @@ app.use(express.static('public'))
 // GET 
 
 // route to my index.html
-app.get("/", (req, res) => res.sendFile(path.join(__dirname, "/public/index.html")));
+app.get("/", (req, res) => res.sendFile(path.join(__dirname, "./public/index.html")));
 
 // route to my note.html
-app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, '/public/notes.html')));
+app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, './public/notes.html')));
 
 // route to my db.json 
 app.get('/api/notes', (req, res) => res.sendFile(path.join(__dirname, 'db/db.json')));
